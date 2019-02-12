@@ -7,6 +7,12 @@ For more information see the [Pushbullet API documentation for SMS](https://docs
 ### Installation
 To install download the [script](https://raw.githubusercontent.com/fondberg/hass_pushbullet_sms/master/pushbullet_sms.sh) to `<home-assistent>:/config/pushbullet_sms.sh` and make sure to make it executable (`chmod +x pushbullet_sms.sh`).
 
+On the home-assistent do
+```
+$ cd /config && curl https://raw.githubusercontent.com/fondberg/hass_pushbullet_sms/master/pushbullet_sms.sh > pushbullet_sms.sh && chmod +x pushbullet_sms.sh
+```
+
+
 ### Configuration
 1. Edit these variables in the script for your Pushbullet integration:
 ```
