@@ -22,6 +22,9 @@ AUTH_TOKEN=''
 TARGET_DEVICE_IDEN=''
 # This seems it can be whatever but it is required
 SOURCE_USER_IDEN='niklas'
+# The numbers you want to send SMS to
+NUMBERS=( "+46987654321" "+46123456798" )
+
 ```
 
 2. Add the script to your configuration
