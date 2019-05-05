@@ -12,6 +12,10 @@ To install download the [script](https://raw.githubusercontent.com/fondberg/hass
 $ cd /config && curl https://raw.githubusercontent.com/fondberg/hass_pushbullet_sms/master/pushbullet_sms.sh > pushbullet_sms.sh && chmod +x pushbullet_sms.sh
 ```
 
+### Get device iden and other info from pushbullet
+```
+$ curl --header 'Access-Token: <your_access_token_here>' https://api.pushbullet.com/v2/devices | jq .
+```
 
 ### Configuration
 1. Edit these variables in the script for your Pushbullet integration:
